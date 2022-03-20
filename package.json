@@ -1,0 +1,34 @@
+{
+  "name": "jspw",
+  "version": "1.0.0",
+  "description": "Password generator created in Vanilla JavaScript",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test.js",
+    "cleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
+    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix",
+    "fullpr": "git add .&&git commit&&git push&&git merge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toughee/JsPw.git"
+  },
+  "keywords": [
+    "Utilities",
+    "tool",
+    "JavaScript"
+  ],
+  "author": "tjdev7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Toughee/JsPw/issues"
+  },
+  "homepage": "https://github.com/Toughee/JsPw#readme",
+  "dependencies": {
+    "npm-upgrade": "^3.1.0",
+    "prettier": "^2.6.0"
+  }
+}

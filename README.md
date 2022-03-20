@@ -1,2 +1,10 @@
+
+
+
+![App logo](./img/JsPw_logo.png)
+
 # JsPw
-JavaScript Version fo PyPw - Password generator
+Password generator created in Vanilla JavaScript. App is the JS verersion for [PyPw](https://github.com/Toughee/PyPw)
+
+
+![Splash page](./img/JsPw_splash.png)
