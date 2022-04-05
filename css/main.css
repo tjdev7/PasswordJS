@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,700&family=Caveat:wght@700&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+
 .passwordSection {
     font-weight: bolder;
 }
 
 body {
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 
 .PwTab {
     background-color: #ffffff;
     text-align: center;
     border-radius: 5%;
-    padding: 5rem 0rem 10rem 0rem;
-    height: 10rem;
-    width: 35rem;
+    padding: 7rem 0rem 10rem 0rem;
+    height: 25rem;
+    width: 50rem;
     display: block;
     margin-top: 10rem;
     margin-right: auto;
@@ -27,7 +31,8 @@ body {
 .GeneratorBtn,
 .CopyBtn {
     padding: 0.65rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .GeneratorBtn {
@@ -40,16 +45,34 @@ body {
     border-radius: 5%;
 }
 
-.AppTitle {
-    font-size: 4rem;
-    margin: -1rem 0rem 4rem 0rem;
-}
-
-.passwordSection {
-    background-color: gainsboro;
-}
-
 .desc {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-bottom: 0.9rem;
+}
+
+.AppTitle {
+    
+    font-size: 9rem;
+    font-family: 'Titillium Web', sans-serif;
+    margin: -4.5rem 0rem 2rem 0rem;
+}
+
+hr {
+    opacity: 0.5;
+    margin: 0rem 5rem 0rem 5rem;
+}
+
+.desc,
+.GeneratorBtn,
+.CopyBtn,
+.redirect {
+    font-family: 'Lato', sans-serif;
+}
+
+#passwordSection {
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+
 }

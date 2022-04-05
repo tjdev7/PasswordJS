@@ -22,20 +22,26 @@
 
         <main class="PwTab">
             <h1 class="AppTitle">JsPw</h1>
+            
+            <span id="passwordSection"></span>
+            <br/>
+            <br />
+            <button class="GeneratorBtn" onclick="PwGen()">Generate a new password</button>
+            
+            <!-- <button class="CopyBtn" onclick="copyPw()">📋 Copy</button> -->
+            <br />
+            <br />
             <p class="desc">Password generator app created in JavaScript.</p>
+            <hr/>
 
-            <button class="GeneratorBtn">Generate a new password</button>
-            <span id="passwordSection">724rMDWP2-@oJ$#</span>
-            <button class="CopyBtn">📋 Copy</button>
-            <br />
-            <br />
-
-            <p class="redirect">
+            <p class="desc">
                 Python version of this app can be found
                 <a href="https://github.com/Toughee/PyPw">here</a>
             </p>
+
+            
         </main>
 
-        <script src="" async defer></script>
+        <script src="js/Generator.js" async defer></script>
     </body>
 </html>
