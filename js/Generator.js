@@ -2,17 +2,12 @@
 function PwGen() {
     // Password content
     let pwElem =
-        '!@#$%^&)__)(*&+1234567890-ABCDEFGHIJKLMNOPQRSTUVWXYZ*abcdefghijklmnopqrst'
+        '!@#$%^&_*&+1234567890-AB\.CDEFGHIJ~KLMN/OPQRSTU`VWXYZ*abcdefg&hijklmnopqrstuwxyz'
     let newPw = ''
 
-    for (var i = 0; i < 12; i++)
+    for (var i = 0; i < 15; i++)
         newPw += pwElem.charAt(Math.floor(Math.random() * pwElem.length))
 
     // Button selector for password generator
     document.getElementById('passwordSection').innerHTML = newPw
 }
-
-// function copyPw() {
-//     document.getElementById("passwordSection");
-//
-// }
