@@ -1,6 +1,6 @@
 {
   "name": "jspw",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Password generator created in Vanilla JavaScript",
   "main": "index.js",
   "homepage": "https://toughee.github.io/JsPw/",
