@@ -4,14 +4,15 @@
 
 A simple password generator created in Vanilla JavaScript. 
 
-Live version of the app can be found [here:](https://willowy-lily-c7b254.netlify.app/)
+Live version of the app can be found [here:](https://jspw.netlify.app/)
 
 
 ![Splash page](./img/JsPw_splash.png)
 
 ## Testing / Linter tools used for app:
 
--   Prettier for keeping all code formatted and organized
+- Prettier to maintain properly formatted and organized code
+
 ### Completed app tasks:
 
 - [x] Perfect UI and UX design for app

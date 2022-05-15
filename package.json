@@ -1,9 +1,9 @@
 {
   "name": "jspw",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Password generator created in Vanilla JavaScript",
   "main": "index.js",
-  "homepage": "https://toughee.github.io/JsPw/",
+  "homepage": "https://jspw.netlify.app/",
   "directories": {
     "doc": "docs"
   },
@@ -30,11 +30,11 @@
     "url": "https://github.com/Toughee/JsPw/issues"
   },
   "dependencies": {
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.16",
     "npm-upgrade": "^3.1.0",
     "prettier": "^2.6.2"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^4.0.0"
   }
 }
