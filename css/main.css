@@ -45,14 +45,14 @@ body {
 }
 
 .desc {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-bottom: 0.9rem;
 }
 
 .AppTitle {
     font-size: 9rem;
     font-family: 'Titillium Web', sans-serif;
-    margin: -4.5rem 0rem 2rem 0rem;
+    margin: -6.5rem 0rem 0rem 0rem;
 }
 
 hr {
@@ -69,7 +69,30 @@ hr {
 
 #passwordSection {
     margin: 2rem;
+    padding: 3rem;
     font-size: 2.5rem;
     font-family: 'Lato', sans-serif;
+}
+
+.iconsStyle {
+    font-size: 4.5rem;
+}
+
+.footerStyle {
     cursor: pointer;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+.footerStyle,
+.iconsStyle {
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
