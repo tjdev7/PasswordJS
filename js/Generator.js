@@ -2,7 +2,7 @@
 function PwGen() {
     // Password content
     let pwElem =
-        '!@#$%^&_*&+1234567890-AB.CDEFGHIJ~KLMN/OPQRSTU`VWXYZ*abcdefg&hijklmnopqrstuwxyz'
+        '!@#$%^&_*&+1234567890-ABCDEFGHIJ~KLMNOPQRSTU`VWXYZ*abcdefg&hijklmnopqrstuwxyz'
     let newPw = ''
 
     for (var i = 0; i < 15; i++)
