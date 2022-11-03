@@ -1,18 +1,18 @@
-![App logo](./img/JsPw_logo.svg)
+![App logo](./img/PasswordJS_logo.svg)
 
-# JsPw
+# PasswordJS
 
-A simple password generator created in Vanilla JavaScript. 
+A password generator created in Vanilla JavaScript. 
 
-Live version of the app can be found [here:](https://jspw.netlify.app/)
+Live version of the app can be found [here:](https://passwordjs.netlify.app/)
 
 ## Desktop view
 
-![Splash page](./img/JsPw_splashpage_desktop.png)
+![Splash page](./img/PasswordJS_splashpage_desktop.png)
 
 ### Mobile view
 
-![Splash page](./img/JsPw_splashpage_mobile.png)
+![Splash page](./img/PasswordJS_splashpage_mobile.png)
 
 
 ### Testing / Linter tools used for app:
@@ -26,8 +26,6 @@ Live version of the app can be found [here:](https://jspw.netlify.app/)
 
 ### Future app goals:
 
-- [ ] Include JS framework backend for project
-- [ ] Include working copy button inside the app
-- [ ] Create a 2FA code generator
-- [ ] Include QR reader for 2FA generator option
-
+- [ ] Add more password options inside the app 
+- [ ] Include a JS framework backend for project
+- [ ] Add multiple tests for the project
