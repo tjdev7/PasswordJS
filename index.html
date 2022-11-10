@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
     <head>
         <meta charset="utf-8" />
@@ -35,7 +35,10 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         />
 
-        <script src="js/Generator.js" async defer></script>
+        <script src="js/EasyPw.js" async defer></script>
+        <script src="js/MediumPw.js" async defer></script>
+        <script src="js/HardPw.js" async defer></script>
+        <script src="js/VeryHardPw.js" async defer></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -50,23 +53,43 @@
 
         <main class="PwTab">
             <h1 class="AppTitle">PasswordJS</h1>
-            <p class="desc">Password generator app</p>
-            <hr />
-
-            <span id="passwordSection"></span>
-            <button class="GeneratorBtn" onclick="PwGen()">
-                <i class="fa-solid fa-arrows-spin"></i> Generate a new password
-            </button>
-
+        
             <aside>
-                <a href="https://github.com/Toughee/PasswordJS">
+                <a href="https://github.com/tjdev7/PasswordJS">
                     <h5 class="footerStyle">
                         <i class="devicon-github-plain colored iconsStyle"></i>
-                        Github page
                     </h5>
                 </a>
             </aside>
+            <br/>
+
             <hr />
+
+            <button class="EasyBtnStyle" onclick="EasyPwGen()">
+                <i class="fa-solid fa-arrows-spin"></i> Generate an Easy
+                strength password
+            </button>
+            <button class="MdmBtnStyle" onclick="MedPwGen()">
+                <i class="fa-solid fa-arrows-spin"></i> 
+                <i class="fa-solid fa-arrows-spin"></i>
+                Generate a Medium strength password
+            </button>
+            <button class="HrdBtnStyle" onclick="HrdPwGen()">
+                <i class="fa-solid fa-arrows-spin"></i> 
+                <i class="fa-solid fa-arrows-spin"></i>
+                <i class="fa-solid fa-arrows-spin"></i>
+                Generate a Hard strength password
+            </button>
+            <button class="VhBtnStyle" onclick="VhPwGen()">
+                <i class="fa-solid fa-arrows-spin"></i>
+                <i class="fa-solid fa-arrows-spin"></i>
+                <i class="fa-solid fa-arrows-spin"></i>
+                <i class="fa-solid fa-arrows-spin"></i>
+                Generate a Very Hard strength password
+            </button>
+
+            <hr class="Divider" />
+            <span id="passwordSection"></span>
         </main>
     </body>
 </html>

@@ -1,8 +1,8 @@
-![App logo](./img/PasswordJS_logo.svg)
+![App logo](./img/PwJS_logo.svg)
 
 # PasswordJS
 
-A password generator created in Vanilla JavaScript. 
+A password generator webapp created in Vanilla JavaScript. Autogenerate a password with varying degrees of difficulty. 
 
 Live version of the app can be found [here:](https://passwordjs.netlify.app/)
 
@@ -23,9 +23,9 @@ Live version of the app can be found [here:](https://passwordjs.netlify.app/)
 
 - [x] Perfect UI and UX design for app
 - [x] Make app responsive for the majority of user platforms
+- [x] Add more password options inside the app 
 
 ### Future app goals:
 
-- [ ] Add more password options inside the app 
 - [ ] Include a JS framework backend for project
 - [ ] Add multiple tests for the project
