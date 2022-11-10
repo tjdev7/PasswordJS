@@ -22,5 +22,5 @@
 
 <!---
 Example:
-Fix|Update for JsPw/repository_name/PR-Number/name_of_fix
+Fix|Update for PasswordJS/repository_name/PR-Number/name_of_fix
 --->

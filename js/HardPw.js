@@ -1,11 +1,11 @@
 // Function to generate randomizes word content
-function PwGen() {
+function HrdPwGen() {
     // Password content
     let pwElem =
-        '!@#$%^&_*&+1234567890-ABCDEFGHIJ~KLMNOPQRSTU`VWXYZ*abcdefg&hijklmnopqrstuwxyz'
+        '!@#$%^&--*&+1234567890-ABCDEF--GHIJ~KLMNOPQRSTUVWXYZ*abcdefg--&hijkl--mnopqrs--tuwxyz'
     let newPw = ''
 
-    for (var i = 0; i < 15; i++)
+    for (var i = 0; i < 20; i++)
         newPw += pwElem.charAt(Math.floor(Math.random() * pwElem.length))
 
     // Button selector for password generator
