@@ -12,7 +12,7 @@ body {
     text-align: center;
     border-radius: 10px;
     padding: 7rem 0rem 30rem 0rem;
-    height: 25rem;
+    height: 20rem;
     width: 100%;
     display: grid;
     margin: 2rem 0rem 2rem 0rem;
@@ -68,7 +68,7 @@ body {
 }
 
 .AppTitle {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Titillium Web', sans-serif;
     margin: -6.5rem 0rem 0rem 0rem;
 }
@@ -103,10 +103,14 @@ hr {
 }
 
 #passwordSection {
-    margin: 0rem;
-    padding: 1.5rem;
+    margin: 0.5rem;
     font-size: 1.7rem;
     font-family: 'Lato', sans-serif;
+    background-color: #181818;
+    color: #ffffff;
+    padding: 1.5rem 4.5rem 1.5rem 4.5rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
 }
 
 .iconsStyle {
