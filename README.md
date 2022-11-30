@@ -27,5 +27,5 @@ Live version of the app can be found [here:](https://passwordjs.netlify.app/)
 
 ### Future app goals:
 
-- [ ] Include a JS framework backend for project
-- [ ] Add multiple tests for the project
+- [ ] Include a JavaScript framework to work as a backend for the project
+- [ ] Add multiple tests for the project (unit tests, usability tests, etc)
