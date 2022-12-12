@@ -6,14 +6,7 @@ A password generator webapp created in Vanilla JavaScript. Autogenerate a passwo
 
 Live version of the app can be found [here:](https://passwordjs.netlify.app/)
 
-## Desktop view
-
 ![Splash page](./img/PasswordJS_splashpage_desktop.png)
-
-### Mobile view
-
-![Splash page](./img/PasswordJS_splashpage_mobile.png)
-
 
 ### Testing / Linter tools used for app:
 

@@ -79,7 +79,6 @@ hr {
 }
 
 .desc,
-.GeneratorBtn,
 .CopyBtn,
 .redirect,
 .EasyBtnStyle,
@@ -89,13 +88,12 @@ hr {
     font-family: 'Lato', sans-serif;
 }
 
-.GeneratorBtn,
 .CopyBtn,
 .EasyBtnStyle,
 .MdmBtnStyle,
 .HrdBtnStyle,
 .VhBtnStyle {
-    padding: 1.5rem 4.5rem 1.5rem 4.5rem;
+    padding: 2rem 5rem;
     font-size: 1.5rem;
     margin: 0.5rem;
     cursor: pointer;
@@ -113,8 +111,18 @@ hr {
     border-radius: 20px;
 }
 
+.BtnSection {
+    display: flex;
+    margin: 3rem 0rem;
+}
+
+.PwBtn {
+    display: flex;
+    flex-flow: column;
+}
+
 .iconsStyle {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .footerStyle {
