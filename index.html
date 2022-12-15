@@ -65,31 +65,27 @@
 
             <hr />
 
-            <button class="EasyBtnStyle" onclick="EasyPwGen()">
-                <i class="fa-solid fa-arrows-spin"></i> Generate an Easy
-                strength password
-            </button>
-            <button class="MdmBtnStyle" onclick="MedPwGen()">
-                <i class="fa-solid fa-arrows-spin"></i>
-                <i class="fa-solid fa-arrows-spin"></i>
-                Generate a Medium strength password
-            </button>
-            <button class="HrdBtnStyle" onclick="HrdPwGen()">
-                <i class="fa-solid fa-arrows-spin"></i>
-                <i class="fa-solid fa-arrows-spin"></i>
-                <i class="fa-solid fa-arrows-spin"></i>
-                Generate a Hard strength password
-            </button>
-            <button class="VhBtnStyle" onclick="VhPwGen()">
-                <i class="fa-solid fa-arrows-spin"></i>
-                <i class="fa-solid fa-arrows-spin"></i>
-                <i class="fa-solid fa-arrows-spin"></i>
-                <i class="fa-solid fa-arrows-spin"></i>
-                Generate a Very Hard strength password
-            </button>
+            <section class="BtnSection">
+                <button class="EasyBtnStyle PwBtn" onclick="EasyPwGen()">
+                    Easy
+                </button>
+                <button class="MdmBtnStyle PwBtn" onclick="MedPwGen()">
+                    Medium
+                </button>
+                <button class="HrdBtnStyle PwBtn" onclick="HrdPwGen()">
+                    Hard</button
+                ><button class="VhBtnStyle PwBtn" onclick="VhPwGen()">
+                    Very Hard
+                </button>
+            </section>
 
             <hr class="Divider" />
-            <span id="passwordSection"></span>
+
+            <br />
+
+            <span id="passwordSection"
+                >Generate a new password using the buttons above</span
+            >
         </main>
     </body>
 </html>

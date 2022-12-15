@@ -1,6 +1,6 @@
 {
   "name": "passwordjs",
-  "version": "2.4.3",
+  "version": "2.5.0",
   "description": "Password generator created in JavaScript",
   "main": "index.js",
   "homepage": "https://passwordjs.netlify.app/",
