@@ -39,7 +39,7 @@ jspm_packages/
 coveragegit
 .history/
 storybook-static/
-
+cypress/
 # TypeScript v1 declaration files
 typings/
 
